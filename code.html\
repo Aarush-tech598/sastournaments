@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SASTournaments Custom Rooms</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #1e3a8a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .download-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #2563eb;
+      color: white;
+      font-size: 1rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .download-btn:hover {
+      background: #1d4ed8;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+      background: #1e3a8a;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SASTournaments – Custom Rooms</h1>
+    <p>Nepal's First Custom Rooms Gaming App</p>
+  </header>
+
+  <div class="container">
+    <h2>Why Choose SASTournaments?</h2>
+    <div class="features">
+      <div class="card">
+        <h3>24/7 Rooms</h3>
+        <p>Play custom game rooms anytime, anywhere with friends.</p>
+      </div>
+      <div class="card">
+        <h3>Secure Wallet</h3>
+        <p>Deposit, join matches, and withdraw securely through Khalti/eSewa.</p>
+      </div>
+      <div class="card">
+        <h3>Instant Rewards</h3>
+        <p>Winners receive instant prize distribution into their wallet.</p>
+      </div>
+    </div>
+
+    <div style="text-align: center; margin-top: 40px;">
+      <a href="downloads/sastournaments.apk" class="download-btn">⬇ Download APK</a>
+      <p style="margin-top: 10px;">(Enable "Install from Unknown Sources" on your phone)</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 SASTournaments App • All rights reserved</p>
+  </footer>
+</body>
+</html>
